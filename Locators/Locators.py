@@ -6,7 +6,6 @@ class Locators:
 
     #homepage
     item_list = 'div.inventory_item'
-    #add_to_cart_btn = "//div[@class='pricebar']/descendant::button"
     add_to_cart_btn = "div.pricebar button"
     cart_link_id = "a.shopping_cart_link"
     confirm_checkout_btn = "div.cart_footer > button.checkout_button"
@@ -16,3 +15,4 @@ class Locators:
     submit_customer_info = "input[type='submit']"
     proceed_checkout_overview = "button[id='finish']"
     checkout_header = "span.title"
+    final_message = 'span.title[data-test="title"]'
