@@ -1,8 +1,5 @@
 from selenium import webdriver
-import time
 import unittest
-from Pages.LoginPage import LoginPage
-from Pages.HomePage import HomePage
 
 
 class BaseTest(unittest.TestCase):
